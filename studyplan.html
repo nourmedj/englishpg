@@ -1,0 +1,283 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>studyplans and methods</title>
+<link rel="stylesheet" href="style.css">
+<script src="theme-toggle.js" defer></script>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Marcellus&family=Oswald:wght@200..700&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css">
+
+</head>
+<body>
+<header>
+  <nav>
+    <div id="logo">NHSM</div>
+
+    <button class="menu-toggle" id="menu-toggle">
+      ☰
+    </button>
+
+    <ul class="navbar" id="navbar">
+      <li><a href="index.html">Home</a></li>
+      <li><a href="https://www.notion.so/Student-Planner-1034c75a4c62803097b1d94fe3885897?pvs=4">Notion</a></li>
+      <li class="dropdown">
+        <a href="resource.html">Resources</a>
+        <ul class="dropdown-menu">
+          <li><a href="alg.html">Algebra 1&2</a></li>
+          <li><a href="ana.html">Analysis 1&2</a></li>
+          <li><a href="dis.html">Discrete Math 1&2</a></li>
+          <li><a href="prob.html">Statistics and Probability</a></li>
+          <li><a href="phy.html">Physics 1&2</a></li>
+          <li><a href="asd.html">ASD 1&2</a></li>
+          <li><a href="log.html">Logic</a></li>
+        </ul>
+      </li>
+      <li><a href="studyplan.html">Study Plans & Methods</a></li>
+
+      <!-- Theme switch stays here -->
+      <label class="switch">
+        <input checked="true" id="checkbox" type="checkbox" />
+        <span class="slider">
+          <div class="star star_1"></div>
+          <div class="star star_2"></div>
+          <div class="star star_3"></div>
+          <svg viewBox="0 0 16 16" class="cloud_1 cloud">
+            <path transform="matrix(.77976 0 0 .78395-299.99-418.63)" fill="#fff"
+              d="m391.84 540.91c-.421-.329-.949-.524-1.523-.524-1.351 0-2.451 1.084-2.485 2.435-1.395.526-2.388 1.88-2.388 3.466 0 1.874 1.385 3.423 3.182 3.667v.034h12.73v-.006c1.775-.104 3.182-1.584 3.182-3.395 0-1.747-1.309-3.186-2.994-3.379.007-.106.011-.214.011-.322 0-2.707-2.271-4.901-5.072-4.901-2.073 0-3.856 1.202-4.643 2.925" />
+          </svg>
+        </span>
+      </label>
+    </ul>
+  </nav>
+</header>
+
+  <section class="note-section">
+    <h2>Comparison of Two Effective Note-Taking Methods</h2>
+
+    <article class="method">
+      <h3>Cornell Method</h3>
+      <p>
+        Developed by Walter Pauk at Cornell University, this method divides a note page into three sections:
+        a narrow left column for <strong>cues or keywords</strong>, a wide right column for <strong>detailed notes</strong>,
+        and a summary section at the bottom.
+      </p>
+      <ul>
+        <li><strong>Advantages:</strong>
+          <ul>
+            <li>Structured layout promotes organized notes and efficient review.</li>
+            <li>Enhances recall through summarization.</li>
+            <li>Versatile for lectures, reading, and meetings.</li>
+          </ul>
+        </li>
+        <li><strong>Disadvantages:</strong>
+          <ul>
+            <li>Beginners may find it takes time to adapt.</li>
+            <li>The page division may limit space for detailed notes.</li>
+          </ul>
+        </li>
+      </ul>
+    </article>
+
+    <article class="method">
+      <h3>Mapping Method</h3>
+      <p>
+        A visual, diagram-based approach where the main topic is placed at the center or top, with branches
+        representing subtopics and further divisions for details. It resembles a flowchart or web, showing
+        relationships between ideas.
+      </p>
+      <ul>
+        <li><strong>Advantages:</strong>
+          <ul>
+            <li>Helps visualize and connect complex or abstract information.</li>
+            <li>Supports deep learning and memory recall, especially for visual learners.</li>
+            <li>Encourages creativity with colors and symbols.</li>
+          </ul>
+        </li>
+        <li><strong>Disadvantages:</strong>
+          <ul>
+            <li>Space constraints require careful planning.</li>
+            <li>Time-consuming if relationships between ideas are unclear.</li>
+            <li>Not ideal for fast-paced lectures.</li>
+          </ul>
+        </li>
+      </ul>
+    </article>
+
+    <div class="comparison-table">
+      <h3>Visual Comparison</h3>
+      <table>
+        <thead>
+          <tr>
+            <th>Feature</th>
+            <th>Cornell Method</th>
+            <th>Mapping Method</th>
+          </tr>
+        </thead>
+        <tbody>
+          <tr>
+            <td>Layout</td>
+            <td>Structured columns and summary section</td>
+            <td>Diagram/web with branches</td>
+          </tr>
+          <tr>
+            <td>Best for</td>
+            <td>Organized review and linear content</td>
+            <td>Visualizing relationships and complex topics</td>
+          </tr>
+          <tr>
+            <td>Ease of Use</td>
+            <td>Moderate; requires practice</td>
+            <td>More complex; better for review than initial notes</td>
+          </tr>
+          <tr>
+            <td>Space Efficiency</td>
+            <td>Limited by page division</td>
+            <td>Space can be constrained</td>
+          </tr>
+          <tr>
+            <td>Learning Style Suitability</td>
+            <td>Supports active recall and structured review</td>
+            <td>Ideal for visual learners</td>
+          </tr>
+          <tr>
+            <td>Use Case</td>
+            <td>Lectures, meetings, reading assignments</td>
+            <td>Complex subjects, brainstorming, study review</td>
+          </tr>
+        </tbody>
+      </table>
+    </div>
+  </section>
+
+
+
+  <section class="note-section">
+    <h2>🧠 Effective Memorization Techniques</h2>
+    <div class="grid-layout">
+      <article class="method">
+        <h3>1. Spaced Repetition</h3>
+        <p><strong>Definition:</strong> Repeating information over increasing time intervals instead of cramming.</p>
+        <ul>
+          <li>Review after 1 hour</li>
+          <li>Then after 1 day</li>
+          <li>Then after 3 days</li>
+          <li>Then after 1 week</li>
+        </ul>
+        <p><strong>Example:</strong> Learning vocabulary at spaced intervals.</p>
+        <p><strong>Tools:</strong> Anki, Quizlet, Brainscape.</p>
+        <p><strong>Benefit:</strong> Excellent for long-term retention.</p>
+      </article>
+
+      <article class="method">
+        <h3>2. Chunking</h3>
+        <p><strong>Definition:</strong> Breaking down large information into smaller, manageable parts.</p>
+        <p><strong>Example:</strong> Instead of memorizing 758219439, break it into: 758 – 219 – 439.</p>
+        <p><strong>Benefit:</strong> Reduces cognitive load and improves recall.</p>
+      </article>
+
+      <article class="method">
+        <h3>3. Storytelling or Narrative Linking</h3>
+        <p><strong>Definition:</strong> Creating a logical or imaginative story to link facts.</p>
+        <p><strong>Example:</strong> “A wizard gave me a golden apple to unlock the door of time and dive into the ocean of memories.”</p>
+        <p><strong>Benefit:</strong> Effective for auditory and visual learners.</p>
+      </article>
+    </div>
+
+    <h2>📚 Study Tips</h2>
+    <div class="grid-layout">
+      <article class="method">
+        <h3>1. Pomodoro Technique</h3>
+        <ul>
+          <li>Study for 25 minutes.</li>
+          <li>Take a 5-minute break.</li>
+          <li>After 4 cycles, take a longer break (15–30 minutes).</li>
+        </ul>
+        <p><strong>Goal:</strong> Prevent burnout and maintain concentration.</p>
+      </article>
+
+      <article class="method">
+        <h3>2. Feynman Technique</h3>
+        <ul>
+          <li>Select a topic.</li>
+          <li>Explain it as if teaching a child.</li>
+          <li>Review and simplify where necessary.</li>
+        </ul>
+        <p><strong>Goal:</strong> Achieve deep understanding.</p>
+      </article>
+
+      <article class="method">
+        <h3>3. Active Recall</h3>
+        <ul>
+          <li>Ask questions and answer from memory.</li>
+          <li>Use flashcards (e.g., Anki).</li>
+        </ul>
+        <p><strong>Goal:</strong> Strengthen long-term memory.</p>
+      </article>
+
+      <article class="method">
+        <h3>4. SQ3R Method</h3>
+        <ul>
+          <li>Survey (skim the content).</li>
+          <li>Question (generate questions from headings).</li>
+          <li>Read (read thoroughly).</li>
+          <li>Recite (explain it to yourself).</li>
+          <li>Review (revisit the material).</li>
+        </ul>
+        <p><strong>Goal:</strong> Improve comprehension and retention.</p>
+      </article>
+    </div>
+  </section>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<footer class="footer">
+  <div class="footer-content">
+    <div class="footer-left">
+      <h3>the ultumate nhsm study guide</h3>
+      <p>Inspiring minds. Shaping futures.</p>
+    </div>
+    <div class="footer-right">
+      <ul class="footer-links">
+        <li><a href="#">Home</a></li>
+        <li><a href="#">Study plans & methods </a></li>
+        <li><a href="#">Resources</a></li>
+        
+      </ul>
+    </div>
+  </div>
+  <div class="footer-bottom">
+    <p>© 2025 All rights reserved.</p>
+  </div>
+</footer>
+
+</body>
+</html>
