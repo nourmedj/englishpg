@@ -788,34 +788,56 @@ table th {
   color: #fff;
 }
 
-@media (max-width: 768px) {
-  table, thead, tbody, th, td, tr {
-    display: block;
-  }
+.comparison-cards {
+  display: none;
+}
 
-  thead {
+@media (max-width: 768px) {
+  .comparison-table {
     display: none;
   }
 
-  tr {
-    margin-bottom: 1rem;
-    background-color: var(--dropdown);
+  .comparison-cards {
+    display: block;
     padding: 1rem;
-    border-radius: 8px;
   }
 
-  td {
-    display: flex;
-    justify-content: space-between;
-    padding: 0.5rem 0;
+  .comparison-cards h3 {
+    text-align: center;
+    color: var(--accent);
+    margin-bottom: 1rem;
   }
 
-  td::before {
-    content: attr(data-label);
-    font-weight: bold;
-    margin-right: 1rem;
+  .card {
+    background-color: var(--dropdown);
+    color: var(--text);
+    border: 1px solid var(--accent);
+    border-radius: 12px;
+    padding: 1rem;
+    margin-bottom: 1.5rem;
+    box-shadow: 0 2px 6px rgba(0,0,0,0.1);
+  }
+
+  .card h4 {
+    color: var(--accent);
+    margin-bottom: 0.75rem;
+  }
+
+  .card ul {
+    list-style: none;
+    padding-left: 0;
+  }
+
+  .card li {
+    margin-bottom: 0.5rem;
+  }
+
+  .card li strong {
+    display: inline-block;
+    min-width: 140px;
   }
 }
+
 
 
 
