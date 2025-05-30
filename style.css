@@ -803,7 +803,7 @@ table th {
   }
 
   .comparison-cards h3 {
-    text-align: center;
+    text-align: left;
     color: var(--accent);
     margin-bottom: 1rem;
   }
