@@ -803,7 +803,7 @@ table th {
   }
 
   .comparison-cards h3 {
-    text-align: right;
+  text-align: left;
     color: var(--accent);
     margin-bottom: 1rem;
   }
@@ -822,25 +822,25 @@ table th {
   .card h4 {
     color: var(--accent);
     margin-bottom: 0.75rem;
-     text-align: right;
+    text-align: left;
   }
 
   .card ul {
     list-style: none;
     padding-left: 0;
-     text-align: right;
+   text-align: left;
     
   }
 
   .card li {
     margin-bottom: 0.5rem;
-     text-align: right;
+     text-align: left;
   }
 
   .card li strong {
     display: inline-block;
     min-width: 140px;
-     text-align: right;
+    text-align: left;
   }
 }
 
